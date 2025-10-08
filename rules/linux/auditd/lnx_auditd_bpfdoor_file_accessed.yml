@@ -21,6 +21,7 @@ detection:
             - /var/run/haldrund.pid
             - /var/run/xinetd.lock
             - /var/run/kdevrund.pid
+            - /var/run/kubernetes.pid
     condition: selection
 falsepositives:
     - Unlikely
