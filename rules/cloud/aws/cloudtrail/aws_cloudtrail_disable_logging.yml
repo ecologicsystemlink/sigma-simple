@@ -19,7 +19,6 @@ detection:
         eventName:
             - StopLogging
             - UpdateTrail
-            - DeleteTrail
     condition: selection_source
 falsepositives:
     - Valid change in a Trail
