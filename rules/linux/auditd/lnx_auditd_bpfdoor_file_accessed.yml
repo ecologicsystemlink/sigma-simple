@@ -20,6 +20,7 @@ detection:
         name:
             - /var/run/haldrund.pid
             - /var/run/xinetd.lock
+            - /var/run/kdevrund.pid
     condition: selection
 falsepositives:
     - Unlikely
