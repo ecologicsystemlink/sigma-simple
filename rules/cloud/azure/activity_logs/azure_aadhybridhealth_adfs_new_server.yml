@@ -20,7 +20,7 @@ detection:
     selection:
         CategoryValue: 'Administrative'
         ResourceProviderValue: 'Microsoft.ADHybridHealthService'
-        ResourceId|contains: 'AdFederationService'
+        ResourceId|contains: 'AdFederationServices'
         OperationNameValue: 'Microsoft.ADHybridHealthService/services/servicemembers/action'
     condition: selection
 falsepositives:
